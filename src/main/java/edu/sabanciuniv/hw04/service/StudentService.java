@@ -2,11 +2,13 @@ package edu.sabanciuniv.hw04.service;
 
 import edu.sabanciuniv.hw04.model.Student;
 import edu.sabanciuniv.hw04.repository.StudentRepository;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+
 public class StudentService {
 
     private final StudentRepository studentRepository;
